@@ -15,4 +15,7 @@
 <style lang="scss">
 @import "uview-ui/index.scss";
 @import "./static/font/iconfont.css";
+body{
+	background: #F4F4F8;
+}
 </style>

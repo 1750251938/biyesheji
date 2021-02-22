@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-rate": "/node-modules/uview-ui/components/u-rate/u-rate",
+    "u-calendar": "/node-modules/uview-ui/components/u-calendar/u-calendar",
+    "u-number-box": "/node-modules/uview-ui/components/u-number-box/u-number-box",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

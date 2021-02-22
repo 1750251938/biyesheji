@@ -1,11 +1,10 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/detail/reserveDetail"
   ],
   "subPackages": [],
-  "window": {
-    "navigationStyle": "custom"
-  },
   "tabBar": {
     "color": "#9F9C9F",
     "selectedColor": "#605EF5",

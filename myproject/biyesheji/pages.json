@@ -4,11 +4,32 @@
 	},
 	"pages": [ 
 		{
-			"path": "pages/index/index"
+			"path": "pages/index/index",
+			"style":{
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style":{
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/detail/reserveDetail",
+			"style":{
+				"navigationStyle":"custom"
+			}
 		}
+
 	],
-	"globalStyle": {
-		"navigationStyle":"custom"
+	
+	"condition":{
+		"current":1,
+		"list":[{
+			"name":"预定详情页面",
+			"path":"pages/detail/reserveDetail"
+		}]
 	},
 	"tabBar": {
 		"color": "#9F9C9F",

@@ -68,7 +68,7 @@
 					</view>
 				</view>
 				<view class="page-recommend-pos">
-					<view class="page-recommend-content" v-for="(item,index) in recommendList" :key="index">
+					<view  class="page-recommend-content" v-for="(item,index) in recommendList" :key="index" @click="getToDetail">
 						<image style="width: 192rpx;height: 192rpx;border-radius: 14rpx;margin-right: 30rpx;"  :src="item.src"></image>
 						<view class="page-recommend-info">
 							<text style="font-size: 35rpx;margin-bottom: 22rpx;">{{item.name}}</text>
@@ -81,7 +81,7 @@
 				</view>
 			</view>
 		</view>
-		
+	
 	</view>
 </template>
 
@@ -137,10 +137,19 @@
 					detail:'仙海风景区水质优良，湖面宽广，植被繁茂，地形地貌奇特 。',
 					count:5,
 					value:5
-				}]
+				}],
+				
 			}
 			
 		},
+		methods:{
+			getToDetail(){
+				uni.navigateTo({	
+					 url: '/pages/detail/detail'
+				});
+				
+			}
+		}
 		
 	}
 </script>

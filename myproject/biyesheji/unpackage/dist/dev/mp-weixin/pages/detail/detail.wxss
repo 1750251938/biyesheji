@@ -1,0 +1,135 @@
+
+.page{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    background: #F4F4F8;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.back-icon{
+    width: 52rpx;
+    height: 52rpx;
+    position: absolute;
+    top: 50rpx;
+    left: 30rpx;
+    padding-left: 15rpx;
+    border-radius: 52rpx;
+    background: #000;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 52rpx;
+    color: #ffffff;
+}
+.page-image{
+    width: 750rpx;
+    height: 556rpx;
+}
+.page-ticket{
+    width: 686rpx;
+    margin:  0 auto;
+    border-radius: 20rpx;
+    background: #ffffff;
+    padding: 26rpx 34rpx 26rpx 34rpx;
+    box-shadow: 0rpx 10rpx 18rpx 2rpx rgba(81, 79, 80, 0.2);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+}
+.page-ticket-title{
+    color: #606060;
+    border-bottom: 2rpx solid#D3D3D3;
+    padding-bottom: 24rpx;
+    font-size:36rpx;
+    font-weight:bold;
+}
+.page-ticket-price{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    margin-top: 28rpx;
+    color: #606060;
+    font-weight: bold;
+}
+.page-ticket-price-sty{
+    background:  #6767F7;
+    padding: 10rpx 40rpx 10rpx 40rpx;
+    border-radius: 30rpx;
+    color: #ffffff;
+}
+.page-appraise{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    width: 686rpx;
+    margin:  0 auto;
+    border-radius: 20rpx;
+    background: #ffffff;
+    padding: 26rpx 34rpx 26rpx 34rpx;
+    box-shadow: 0rpx 10rpx 18rpx 2rpx rgba(81, 79, 80, 0.2);
+    margin-top: 30rpx;
+}
+.page-appraise-title{
+    color: #606060;
+    font-size:36rpx;
+    font-weight:bold;
+}
+.page-appraise-content{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    margin-top: 29rpx;
+    color: #606060;
+    border-top: 2rpx solid#D3D3D3;
+    padding-top: 24rpx;
+}
+.page-appraise-content-head{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.page-appraise-cotent-username{
+    color: #606060;
+}
+.page-appraise-info{
+    margin-top: 30rpx;
+   color: #606060;
+   font-size: 22rpx;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 4;
+   overflow: hidden;
+}
+
+

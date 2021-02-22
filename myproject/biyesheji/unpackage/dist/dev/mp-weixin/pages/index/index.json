@@ -1,4 +1,5 @@
 {
+  "navigationStyle": "custom",
   "usingComponents": {
     "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
     "u-rate": "/node-modules/uview-ui/components/u-rate/u-rate"

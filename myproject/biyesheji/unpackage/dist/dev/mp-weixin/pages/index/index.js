@@ -96,10 +96,10 @@ var components
 try {
   components = {
     uSwiper: function() {
-      return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-swiper/u-swiper */ "node-modules/uview-ui/components/u-swiper/u-swiper").then(__webpack_require__.bind(null, /*! uview-ui/components/u-swiper/u-swiper.vue */ 48))
+      return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-swiper/u-swiper */ "node-modules/uview-ui/components/u-swiper/u-swiper").then(__webpack_require__.bind(null, /*! uview-ui/components/u-swiper/u-swiper.vue */ 56))
     },
     uRate: function() {
-      return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-rate/u-rate */ "node-modules/uview-ui/components/u-rate/u-rate").then(__webpack_require__.bind(null, /*! uview-ui/components/u-rate/u-rate.vue */ 55))
+      return __webpack_require__.e(/*! import() | node-modules/uview-ui/components/u-rate/u-rate */ "node-modules/uview-ui/components/u-rate/u-rate").then(__webpack_require__.bind(null, /*! uview-ui/components/u-rate/u-rate.vue */ 63))
     }
   }
 } catch (e) {
@@ -156,7 +156,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -298,7 +298,16 @@ var _default =
 
 
 
-  } };exports.default = _default;
+
+  },
+  methods: {
+    getToDetail: function getToDetail() {
+      uni.navigateTo({
+        url: '/pages/detail/detail' });
+
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 

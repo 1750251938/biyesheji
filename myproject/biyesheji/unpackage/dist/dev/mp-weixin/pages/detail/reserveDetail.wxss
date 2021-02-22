@@ -1,0 +1,160 @@
+
+.reserve-detail{
+    width: 686rpx;
+    margin: 0 auto;
+    border-radius: 20rpx;
+    background: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    padding: 26rpx 34rpx 26rpx 34rpx;
+    box-shadow: 0rpx 10rpx 18rpx 2rpx rgba(81, 79, 80, 0.2);
+    margin-top: 140rpx;
+}
+.reserve-detail-title{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.reserve-detail-content{
+    margin-top: 26rpx;
+    padding-bottom: 31rpx;
+    border-bottom: 2rpx solid#D3D3D3;
+    color: #606060;
+}
+.back-icon{
+    width: 52rpx;
+    height: 52rpx;
+    position: absolute;
+    top: 50rpx;
+    left: 30rpx;
+    padding-left: 15rpx;
+    border-radius: 52rpx;
+    background: #000;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 52rpx;
+    color: #ffffff;
+}
+.reserve-detail-info{
+   
+    display: -webkit-box;
+   
+    display: -webkit-flex;
+   
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    color: #606060;
+    margin-top: 32rpx;
+}
+.reserve-select-time{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    border: 3rpx solid #D3D3D3;/*#48BBF0*/
+    border-radius: 20rpx;
+    padding: 18rpx 0 0 10rpx;
+    /* background: #E6F1FE; */
+}
+.reserve-select-price{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    margin-top: 26rpx;
+}
+.reserve-select-more{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    border: 3rpx solid #D3D3D3;
+    border-radius: 20rpx;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    padding: 0 8rpx 0 8rpx;
+}
+.reserve-select-num{
+    margin-top: 80rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.reserve-userInfo{
+    width: 686rpx;
+    margin: 0 auto;
+    background: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    padding: 26rpx 34rpx 26rpx 34rpx;
+    box-shadow: 0rpx 10rpx 18rpx 2rpx rgba(81, 79, 80, 0.2);
+    margin-top: 32rpx;
+    border-radius: 20rpx;
+    color: #606060;
+}
+.reserve-userInfo-input{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    border-top: 2rpx solid #D3D3D3;
+    margin-top: 22rpx;
+    padding-top: 40rpx;
+}
+.page-reserve{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    margin-top: 70rpx;
+}
+

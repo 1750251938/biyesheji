@@ -1,0 +1,95 @@
+
+.detail{
+    width: 686rpx;
+    margin: 0 auto;
+    border-radius: 20rpx;
+    background: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    padding: 26rpx 34rpx 26rpx 34rpx;
+    box-shadow: 0rpx 10rpx 18rpx 2rpx rgba(81, 79, 80, 0.2);
+}
+.detail-title{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.detail-content{
+    margin-top: 26rpx;
+    padding-bottom: 31rpx;
+    border-bottom: 2rpx solid#D3D3D3;
+    color: #606060;
+}
+.detail-time{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    color: #606060;
+    font-weight: bold;
+    margin-top: 24rpx;
+    padding-bottom: 24rpx;
+    border-bottom: 2rpx solid#D3D3D3;
+}
+.detail-time-sty{
+    font-size: 22rpx;
+    line-height: 22rpx;
+    color: #6767F7;
+    background: #E2E2FF;
+    border-radius: 22rpx;
+    padding: 9rpx 18rpx 9rpx 18rpx;
+    font-weight: normal;
+    margin-right: 20rpx;
+}
+.detail-info{
+    color: #606060;
+    margin-top: 24rpx;
+    padding-bottom: 24rpx;
+    border-bottom: 2rpx solid#D3D3D3;
+}
+.detail-location{
+  
+    font-size: 24rpx;
+    margin-top: 24rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.detail-guide{
+    font-size: 26rpx;
+    font-weight: bold;
+    color: #6767F7;
+    background: #F4F4F8;
+    border-radius: 22rpx;
+    padding: 10rpx 26rpx 10rpx 26rpx;
+}
+.detail-guide:active{
+    color:#F4F4F8;
+    background: #6767F7;
+}
+

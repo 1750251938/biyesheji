@@ -24,8 +24,14 @@
       "list": []
     },
     "miniprogram": {
-      "current": -1,
-      "list": []
+      "current": 1,
+      "list": [
+        {
+          "name": "预定详情页面",
+          "id": 0,
+          "pathName": "pages/detail/reserveDetail"
+        }
+      ]
     }
   }
 }
